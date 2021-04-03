@@ -112,7 +112,8 @@ alter table contain add constraint con_item foreign key (item_id) references pro
 alter table contain add constraint con_order foreign key (order_id) references orders (order_id) on update cascade on delete cascade;
 
 select * from users;
+select * from employee;
+select * from product_inventory;
 select * from orders;
 select * from contain;
-
-select * from orders where user_id=2;
+select * from contain;
